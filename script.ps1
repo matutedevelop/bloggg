@@ -123,7 +123,7 @@ try {
     exit 1
 }
 # Step 8: Push the public folder to the hostinger branch using subtree split and force push
-Write-Host "Deploying to GitHub Hostinger..."
+Write-Host "Deploying to GitHub pages..."
 
 # Check if the temporary branch exists and delete it
 $branchExists = git branch --list "pages-deploy"
@@ -143,7 +143,7 @@ try {
 try {
     git push origin pages-deploy:deploy --force
 } catch {
-    Write-Error "Failed to push to hostinger branch."
+    Write-Error "Failed to push to pages branch."
     git branch -D pages-deploy
     exit 1
 }
