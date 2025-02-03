@@ -5,7 +5,7 @@ import shutil
 # Paths (using raw strings to handle Windows backslashes correctly)
 posts_dir = r"D:\bloggg\content\posts"
 attachments_dir = r"C:\Users\fofoy\OneDrive - ITESO\notest\09-media"
-static_images_dir = r"D:\blogg\static\images"
+static_images_dir = r"D:\bloggg\static\images"
 
 # Step 1: Process each markdown file in the posts directory
 for filename in os.listdir(posts_dir):
