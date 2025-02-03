@@ -1,4 +1,4 @@
-baseURL = 'https://matutedevelop.github.io/blogg/'
+baseURL = 'https://matutedevelop.github.io/bloggg/'
 languageCode = 'en-us'
 title = 'DSStudent'
 theme = "hugo-brewm"
