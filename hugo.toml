@@ -1,0 +1,18 @@
+baseURL = 'https://matutedevelop.github.io/blogg/'
+languageCode = 'en-us'
+title = 'DSStudent'
+theme = "hugo-brewm"
+uglyURLs = true
+
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
+[params]
+  math = true
